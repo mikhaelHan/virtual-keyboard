@@ -1,0 +1,7 @@
+node_modules
+webpack.config.js
+/.vscode
+/.git
+src/assets/fonts
+src/assets/images
+src/assets/styles
