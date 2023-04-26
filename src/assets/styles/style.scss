@@ -1,7 +1,123 @@
 @import url(normalize.css);
 @import url(nullstyle.css);
 
-body {
-	font-size: 36px;
-	background: orangered;
+.body {
+	background: #fff8ee;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 20px auto;
+}
+.content {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+}
+.title {
+	color: rgb(0, 156, 102);
+	font-size: 46px;
+	font-weight: 600;
+}
+.input {
+	letter-spacing: 0.1em;
+	width: 100%;
+	height: 140px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 28px;
+}
+
+.keyboard {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	border: 2px solid rgb(0, 23, 68);
+	border-radius: 5px;
+	background: rgb(184, 184, 184);
+	&__content {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 24px;
+		font-weight: 600;
+		color: rgb(220, 220, 220);
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+	&__content-line1 {
+		display: grid;
+		grid-template: 1fr / repeat(13, 1fr) 2.5fr;
+		gap: 5px;
+	}
+	&__content-line2 {
+		display: grid;
+		grid-template: 1fr / 1.25fr repeat(13, 1fr) 1.25fr;
+		gap: 5px;
+	}
+	&__content-line3 {
+		display: grid;
+		grid-template: 1fr / 2.4fr repeat(11, 1fr) 2.1fr;
+		gap: 5px;
+	}
+	&__content-line4 {
+		display: grid;
+		grid-template: 1fr / 2.4fr repeat(11, 1fr) 2.1fr;
+		gap: 5px;
+	}
+	&__content-line5 {
+		display: grid;
+		grid-template: 1fr / repeat(3, 1fr) 7.5fr repeat(5, 1fr);
+		gap: 5px;
+	}
+	&__key {
+		position: relative;
+		padding: 28px;
+		border-radius: 5px;
+		gap: 5px;
+		background: rgb(125, 125, 125);
+		cursor: pointer;
+		transition-duration: 0.2s;
+		&:active {
+			background: rgb(0, 188, 122);
+		}
+	}
+}
+.rus-end,
+.always,
+.case {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-duration: 0.3s;
+}
+
+.rus-end.active {
+	filter: opacity(1);
+}
+.rus-end {
+	filter: opacity(0);
+}
+
+.case.active {
+	filter: opacity(1);
+}
+.case {
+	filter: opacity(0);
+}
+
+.text {
+	color: rgb(0, 156, 102);
+	font-size: 26px;
+}
+
+// ======= active - классы ======= //
+.CapsLock.active {
+	background: rgb(0, 188, 122);
 }
