@@ -1,7 +1,9 @@
-import StorageLang from './changeLanguage';
+import storageLang from './changeLanguage';
+import keyBoardRegularKeyPress from './keyboardRegular';
 
 function initApp() {
-  StorageLang(false);
+  storageLang(false);
+  keyBoardRegularKeyPress();
 }
 
 export default initApp;

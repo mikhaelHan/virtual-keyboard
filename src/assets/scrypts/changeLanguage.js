@@ -1,10 +1,10 @@
-import selectors from './DocSelectors';
+import selectors from './docSelectors';
 
 function changeLang() {
   selectors.rusEnd.forEach((el) => el.classList.toggle('active'));
 }
 
-function StorageLang(boolean) {
+function storageLang(boolean) {
   const getLang = localStorage.getItem('Language');
   if (boolean === false) {
     if (getLang === null) {
@@ -17,4 +17,4 @@ function StorageLang(boolean) {
   }
 }
 
-export default StorageLang;
+export default storageLang;
