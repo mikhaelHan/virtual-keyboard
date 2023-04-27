@@ -4,7 +4,7 @@ const selectors = {
   caps: document.querySelector('.CapsLock'),
   case: document.querySelectorAll('.case'),
   rusEnd: document.querySelectorAll('.rus-end'),
-  content: document.querySelector('.keyboard__content'),
+  virtualKlava: document.querySelector('.keyboard__content'),
   buttons: document.querySelectorAll('.keyboard__key'),
 };
 

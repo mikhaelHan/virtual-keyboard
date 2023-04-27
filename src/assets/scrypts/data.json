@@ -1,0 +1,189 @@
+{
+	"keyboard__content-line1": {
+		"keyboard__key Backquote": {
+			"rus-end": [
+				"Ё",
+				"Ё",
+				"ё",
+				"ё"
+			],
+			"rus-end active": [
+				"~",
+				"ˋ",
+				"ˋ",
+				"ˋ"
+			]
+		},
+		"keyboard__key Digit1": {
+			"rus-end": [
+				"!",
+				"1",
+				"1",
+				"1"
+			],
+			"rus-end active": [
+				"!",
+				"1",
+				"1",
+				"1"
+			]
+		},
+		"keyboard__key Digit2": {
+			"rus-end": [
+				"\"",
+				"2",
+				"2",
+				"2"
+			],
+			"rus-end active": [
+				"@",
+				"2",
+				"2",
+				"2"
+			]
+		},
+		"keyboard__key Digit3": {
+			"rus-end": [
+				"№",
+				"3",
+				"3",
+				"3"
+			],
+			"rus-end active": [
+				"#",
+				"3",
+				"3",
+				"3"
+			]
+		},
+		"keyboard__key Digit4": {
+			"rus-end": [
+				";",
+				"4",
+				"4",
+				"4"
+			],
+			"rus-end active": [
+				"$",
+				"4",
+				"4",
+				"4"
+			]
+		},
+		"keyboard__key Digit5": {
+			"rus-end": [
+				"%",
+				"5",
+				"5",
+				"5"
+			],
+			"rus-end active": [
+				"%",
+				"5",
+				"5",
+				"5"
+			]
+		},
+		"keyboard__key Digit6": {
+			"rus-end": [
+				":",
+				"6",
+				"6",
+				"6"
+			],
+			"rus-end active": [
+				"^",
+				"6",
+				"6",
+				"6"
+			]
+		},
+		"keyboard__key Digit7": {
+			"rus-end": [
+				"?",
+				"7",
+				"7",
+				"7"
+			],
+			"rus-end active": [
+				"&",
+				"7",
+				"7",
+				"7"
+			]
+		},
+		"keyboard__key Digit8": {
+			"rus-end": [
+				"*",
+				"8",
+				"8",
+				"8"
+			],
+			"rus-end active": [
+				"*",
+				"8",
+				"8",
+				"8"
+			]
+		},
+		"keyboard__key Digit9": {
+			"rus-end": [
+				"(",
+				"9",
+				"9",
+				"9"
+			],
+			"rus-end active": [
+				"(",
+				"9",
+				"9",
+				"9"
+			]
+		},
+		"keyboard__key Digit0": {
+			"rus-end": [
+				")",
+				"0",
+				"0",
+				"0"
+			],
+			"rus-end active": [
+				")",
+				"0",
+				"0",
+				"0"
+			]
+		},
+		"keyboard__key Minus": {
+			"rus-end": [
+				"_",
+				"-",
+				"-",
+				"-"
+			],
+			"rus-end active": [
+				"_",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		"keyboard__key Equal": {
+			"rus-end": [
+				"+",
+				"=",
+				"=",
+				"="
+			],
+			"rus-end active": [
+				"+",
+				"=",
+				"=",
+				"="
+			]
+		},
+		"keyboard__key Backspace": {
+			"always": "Backspace"
+		}
+	}
+}
