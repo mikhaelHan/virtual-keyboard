@@ -6,7 +6,12 @@ import shift from './shift';
 import inputWrite from './inputWrite';
 
 function keyBoardVirtualKeyPress() {
-  selectors.virtualKlava.addEventListener('click', (event) => {
+  console.log( selectors.virtualKlava)
+  const virtualKlava = document.querySelector('.keyboard__content')
+
+  virtualKlava.addEventListener('click', (event) => {
+  console.log(event)
+
     if (event.target.closest('.CapsLock')) {
       const el = event.target.closest('.CapsLock');
       capsLockPress(el);
@@ -21,13 +26,13 @@ function keyBoardVirtualKeyPress() {
     }
   });
 
-  selectors.virtualKlava.addEventListener('mousedown', (event) => {
+  virtualKlava.addEventListener('mousedown', (event) => {
     if (event.target.closest('.ShiftLeft') || event.target.closest('.ShiftRight')) {
       shift();
     }
   });
 
-  selectors.virtualKlava.addEventListener('mouseup', (event) => {
+  virtualKlava.addEventListener('mouseup', (event) => {
     if (event.target.closest('.ShiftLeft') || event.target.closest('.ShiftRight')) {
       shift();
     }
