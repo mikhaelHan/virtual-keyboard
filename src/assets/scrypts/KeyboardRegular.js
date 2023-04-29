@@ -4,7 +4,7 @@ import Input from './Input';
 import capsLock from './capsLock';
 import shift from './shift';
 
-class BoardRegul {
+class KeyboardRegular {
   constructor() {
     this.changeLanguage = new Language();
     this.input = new Input();
@@ -21,7 +21,7 @@ class BoardRegul {
 
   press() {
     document.addEventListener('keydown', (event) => {
-      if ((event.code === 'ShiftLeft' && event.ctrlKey) || event.metaKey) {
+      if ((event.code === 'ShiftLeft' || event.code === 'ShiftRight') && event.ctrlKey) {
         this.changeLanguage.storage(true);
       }
 
@@ -62,4 +62,4 @@ class BoardRegul {
   }
 }
 
-export default BoardRegul;
+export default KeyboardRegular;

@@ -1,6 +1,7 @@
 import CreateContent from './CreateContent';
 
-import BoardRegul from './BoardRegul';
+import KeyboardRegular from './KeyboardRegular';
+import KeyboardVirtual from './KeyboardVirtual';
 import Language from './Language';
 
 class App {
@@ -14,8 +15,11 @@ class App {
     const language = new Language();
     language.storage(false);
 
-    const boardRegul = new BoardRegul();
-    boardRegul.press();
+    const keyboardRegular = new KeyboardRegular();
+    keyboardRegular.press();
+
+    const keyboardVirtual = new KeyboardVirtual();
+    keyboardVirtual.press();
   }
 }
 
