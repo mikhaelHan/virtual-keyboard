@@ -1,18 +1,22 @@
-import storageLang from './changeLanguage';
-
 import CreateContent from './CreateContent';
 
-import keyBoardRegularKeyPress from './keyboardRegular';
-import keyBoardVirtualKeyPress from './keyboardVirtual';
+import BoardRegul from './BoardRegul';
+import Language from './Language';
 
-function initApp() {
-  const createContent = new CreateContent();
-  createContent.writeContent();
+class App {
+  constructor() {
+    this.createContent = new CreateContent();
+  }
 
-  // storageLang(false);
+  init() {
+    this.createContent.writeContent();
 
-  // keyBoardRegularKeyPress();
-  keyBoardVirtualKeyPress();
+    const language = new Language();
+    language.storage(false);
+
+    const boardRegul = new BoardRegul();
+    boardRegul.press();
+  }
 }
 
-export default initApp;
+export default App;

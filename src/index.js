@@ -1,6 +1,7 @@
 import './index.html';
 import './assets/styles/style.scss';
 
-import initApp from './assets/scrypts/App';
+import App from './assets/scrypts/App';
 
-initApp();
+const app = new App();
+app.init();

@@ -1,8 +1,7 @@
-import selectors from './docSelectors';
-
-function capsLockPress(element) {
+function capsLock(element) {
   element.classList.toggle('active');
-  selectors.case.forEach((el) => el.classList.toggle('active'));
+  const shiftColection = document.querySelectorAll('.case');
+  shiftColection.forEach((el) => el.classList.toggle('active'));
 }
 
-export default capsLockPress;
+export default capsLock;
