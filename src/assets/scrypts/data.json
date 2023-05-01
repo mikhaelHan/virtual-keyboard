@@ -1,0 +1,721 @@
+{
+	"keyboard__content-line1": {
+		"keyboard__key Backquote": {
+			"rus-end": [
+				"Ё",
+				"Ё",
+				"ё",
+				"ё"
+			],
+			"rus-end active": [
+				"~",
+				"~",
+				"ˋ",
+				"ˋ"
+			]
+		},
+		"keyboard__key Digit1": {
+			"rus-end": [
+				"!",
+				"!",
+				"1",
+				"1"
+			],
+			"rus-end active": [
+				"!",
+				"!",
+				"1",
+				"1"
+			]
+		},
+		"keyboard__key Digit2": {
+			"rus-end": [
+				"\"",
+				"\"",
+				"2",
+				"2"
+			],
+			"rus-end active": [
+				"@",
+				"@",
+				"2",
+				"2"
+			]
+		},
+		"keyboard__key Digit3": {
+			"rus-end": [
+				"№",
+				"№",
+				"3",
+				"3"
+			],
+			"rus-end active": [
+				"#",
+				"#",
+				"3",
+				"3"
+			]
+		},
+		"keyboard__key Digit4": {
+			"rus-end": [
+				";",
+				";",
+				"4",
+				"4"
+			],
+			"rus-end active": [
+				"$",
+				"$",
+				"4",
+				"4"
+			]
+		},
+		"keyboard__key Digit5": {
+			"rus-end": [
+				"%",
+				"%",
+				"5",
+				"5"
+			],
+			"rus-end active": [
+				"%",
+				"%",
+				"5",
+				"5"
+			]
+		},
+		"keyboard__key Digit6": {
+			"rus-end": [
+				":",
+				":",
+				"6",
+				"6"
+			],
+			"rus-end active": [
+				"^",
+				"^",
+				"6",
+				"6"
+			]
+		},
+		"keyboard__key Digit7": {
+			"rus-end": [
+				"?",
+				"?",
+				"7",
+				"7"
+			],
+			"rus-end active": [
+				"&",
+				"&",
+				"7",
+				"7"
+			]
+		},
+		"keyboard__key Digit8": {
+			"rus-end": [
+				"*",
+				"*",
+				"8",
+				"8"
+			],
+			"rus-end active": [
+				"*",
+				"*",
+				"8",
+				"8"
+			]
+		},
+		"keyboard__key Digit9": {
+			"rus-end": [
+				"(",
+				"(",
+				"9",
+				"9"
+			],
+			"rus-end active": [
+				"(",
+				"(",
+				"9",
+				"9"
+			]
+		},
+		"keyboard__key Digit0": {
+			"rus-end": [
+				")",
+				")",
+				"0",
+				"0"
+			],
+			"rus-end active": [
+				")",
+				")",
+				"0",
+				"0"
+			]
+		},
+		"keyboard__key Minus": {
+			"rus-end": [
+				"_",
+				"_",
+				"-",
+				"-"
+			],
+			"rus-end active": [
+				"_",
+				"_",
+				"-",
+				"-"
+			]
+		},
+		"keyboard__key Equal": {
+			"rus-end": [
+				"+",
+				"+",
+				"=",
+				"="
+			],
+			"rus-end active": [
+				"+",
+				"+",
+				"=",
+				"="
+			]
+		},
+		"keyboard__key Backspace": {
+			"always": "Backspace"
+		}
+	},
+	"keyboard__content-line2": {
+		"keyboard__key Tab": {
+			"always": "Tab"
+		},
+		"keyboard__key KeyQ": {
+			"rus-end": [
+				"Й",
+				"Й",
+				"й",
+				"й"
+			],
+			"rus-end active": [
+				"Q",
+				"Q",
+				"q",
+				"q"
+			]
+		},
+		"keyboard__key KeyW": {
+			"rus-end": [
+				"Ц",
+				"Ц",
+				"ц",
+				"ц"
+			],
+			"rus-end active": [
+				"W",
+				"W",
+				"w",
+				"w"
+			]
+		},
+		"keyboard__key KeyE": {
+			"rus-end": [
+				"У",
+				"У",
+				"у",
+				"у"
+			],
+			"rus-end active": [
+				"E",
+				"E",
+				"e",
+				"e"
+			]
+		},
+		"keyboard__key KeyR": {
+			"rus-end": [
+				"К",
+				"К",
+				"к",
+				"к"
+			],
+			"rus-end active": [
+				"R",
+				"R",
+				"r",
+				"r"
+			]
+		},
+		"keyboard__key KeyT": {
+			"rus-end": [
+				"Е",
+				"Е",
+				"е",
+				"е"
+			],
+			"rus-end active": [
+				"T",
+				"T",
+				"t",
+				"t"
+			]
+		},
+		"keyboard__key KeyY": {
+			"rus-end": [
+				"Н",
+				"Н",
+				"н",
+				"н"
+			],
+			"rus-end active": [
+				"Y",
+				"Y",
+				"y",
+				"y"
+			]
+		},
+		"keyboard__key KeyU": {
+			"rus-end": [
+				"Г",
+				"Г",
+				"г",
+				"г"
+			],
+			"rus-end active": [
+				"U",
+				"U",
+				"u",
+				"u"
+			]
+		},
+		"keyboard__key KeyI": {
+			"rus-end": [
+				"Ш",
+				"Ш",
+				"ш",
+				"ш"
+			],
+			"rus-end active": [
+				"I",
+				"I",
+				"i",
+				"i"
+			]
+		},
+		"keyboard__key KeyO": {
+			"rus-end": [
+				"Щ",
+				"Щ",
+				"щ",
+				"щ"
+			],
+			"rus-end active": [
+				"O",
+				"O",
+				"o",
+				"o"
+			]
+		},
+		"keyboard__key KeyP": {
+			"rus-end": [
+				"З",
+				"З",
+				"з",
+				"з"
+			],
+			"rus-end active": [
+				"P",
+				"P",
+				"p",
+				"p"
+			]
+		},
+		"keyboard__key BracketLeft": {
+			"rus-end": [
+				"Х",
+				"Х",
+				"х",
+				"х"
+			],
+			"rus-end active": [
+				"{",
+				"{",
+				"[",
+				"["
+			]
+		},
+		"keyboard__key BracketRight": {
+			"rus-end": [
+				"Ъ",
+				"Ъ",
+				"ъ",
+				"ъ"
+			],
+			"rus-end active": [
+				"}",
+				"}",
+				"]",
+				"]"
+			]
+		},
+		"keyboard__key Backslash": {
+			"rus-end": [
+				"/",
+				"/",
+				"\\",
+				"\\"
+			],
+			"rus-end active": [
+				"|",
+				"|",
+				"\\",
+				"\\"
+			]
+		},
+		"keyboard__key Delete": {
+			"always": "Del"
+		}
+	},
+	"keyboard__content-line3": {
+		"keyboard__key CapsLock": {
+			"always": "CapsLock"
+		},
+		"keyboard__key KeyA": {
+			"rus-end": [
+				"Ф",
+				"Ф",
+				"ф",
+				"ф"
+			],
+			"rus-end active": [
+				"A",
+				"A",
+				"a",
+				"a"
+			]
+		},
+		"keyboard__key KeyS": {
+			"rus-end": [
+				"Ы",
+				"Ы",
+				"ы",
+				"ы"
+			],
+			"rus-end active": [
+				"S",
+				"S",
+				"s",
+				"s"
+			]
+		},
+		"keyboard__key KeyD": {
+			"rus-end": [
+				"В",
+				"В",
+				"в",
+				"в"
+			],
+			"rus-end active": [
+				"D",
+				"D",
+				"d",
+				"d"
+			]
+		},
+		"keyboard__key KeyF": {
+			"rus-end": [
+				"А",
+				"А",
+				"а",
+				"а"
+			],
+			"rus-end active": [
+				"F",
+				"F",
+				"f",
+				"f"
+			]
+		},
+		"keyboard__key KeyG": {
+			"rus-end": [
+				"П",
+				"П",
+				"п",
+				"п"
+			],
+			"rus-end active": [
+				"G",
+				"G",
+				"g",
+				"g"
+			]
+		},
+		"keyboard__key KeyH": {
+			"rus-end": [
+				"Р",
+				"Р",
+				"р",
+				"р"
+			],
+			"rus-end active": [
+				"H",
+				"H",
+				"h",
+				"h"
+			]
+		},
+		"keyboard__key KeyJ": {
+			"rus-end": [
+				"О",
+				"О",
+				"о",
+				"о"
+			],
+			"rus-end active": [
+				"J",
+				"J",
+				"j",
+				"j"
+			]
+		},
+		"keyboard__key KeyK": {
+			"rus-end": [
+				"Л",
+				"Л",
+				"л",
+				"л"
+			],
+			"rus-end active": [
+				"K",
+				"K",
+				"k",
+				"k"
+			]
+		},
+		"keyboard__key KeyL": {
+			"rus-end": [
+				"Д",
+				"Д",
+				"д",
+				"д"
+			],
+			"rus-end active": [
+				"L",
+				"L",
+				"l",
+				"l"
+			]
+		},
+		"keyboard__key Semicolon": {
+			"rus-end": [
+				"Ж",
+				"Ж",
+				"ж",
+				"ж"
+			],
+			"rus-end active": [
+				":",
+				":",
+				";",
+				";"
+			]
+		},
+		"keyboard__key Quote": {
+			"rus-end": [
+				"Э",
+				"Э",
+				"э",
+				"э"
+			],
+			"rus-end active": [
+				"\"",
+				"\"",
+				"'",
+				"'"
+			]
+		},
+		"keyboard__key Enter": {
+			"always": "Enter"
+		}
+	},
+	"keyboard__content-line4": {
+		"keyboard__key ShiftLeft": {
+			"always": "Shift"
+		},
+		"keyboard__key KeyZ": {
+			"rus-end": [
+				"Я",
+				"Я",
+				"я",
+				"я"
+			],
+			"rus-end active": [
+				"Z",
+				"Z",
+				"z",
+				"z"
+			]
+		},
+		"keyboard__key KeyX": {
+			"rus-end": [
+				"Ч",
+				"Ч",
+				"ч",
+				"ч"
+			],
+			"rus-end active": [
+				"X",
+				"X",
+				"x",
+				"x"
+			]
+		},
+		"keyboard__key KeyC": {
+			"rus-end": [
+				"С",
+				"С",
+				"с",
+				"с"
+			],
+			"rus-end active": [
+				"C",
+				"C",
+				"c",
+				"c"
+			]
+		},
+		"keyboard__key KeyV": {
+			"rus-end": [
+				"М",
+				"М",
+				"м",
+				"м"
+			],
+			"rus-end active": [
+				"V",
+				"V",
+				"v",
+				"v"
+			]
+		},
+		"keyboard__key KeyB": {
+			"rus-end": [
+				"И",
+				"И",
+				"и",
+				"и"
+			],
+			"rus-end active": [
+				"B",
+				"B",
+				"b",
+				"b"
+			]
+		},
+		"keyboard__key KeyN": {
+			"rus-end": [
+				"Т",
+				"Т",
+				"т",
+				"т"
+			],
+			"rus-end active": [
+				"N",
+				"N",
+				"n",
+				"n"
+			]
+		},
+		"keyboard__key KeyM": {
+			"rus-end": [
+				"Ь",
+				"Ь",
+				"ь",
+				"ь"
+			],
+			"rus-end active": [
+				"M",
+				"M",
+				"m",
+				"m"
+			]
+		},
+		"keyboard__key Comma": {
+			"rus-end": [
+				"Б",
+				"Б",
+				"б",
+				"б"
+			],
+			"rus-end active": [
+				"<",
+				"<",
+				",",
+				","
+			]
+		},
+		"keyboard__key Period": {
+			"rus-end": [
+				"Ю",
+				"Ю",
+				"ю",
+				"ю"
+			],
+			"rus-end active": [
+				">",
+				">",
+				".",
+				"."
+			]
+		},
+		"keyboard__key Slash": {
+			"rus-end": [
+				",",
+				",",
+				".",
+				"."
+			],
+			"rus-end active": [
+				"?",
+				"?",
+				"/",
+				"/"
+			]
+		},
+		"keyboard__key ArrowUp": {
+			"always": "˄"
+		},
+		"keyboard__key ShiftRight": {
+			"always": "Shift"
+		}
+	},
+	"keyboard__content-line5": {
+		"keyboard__key ControlLeft": {
+			"always": "Ctrl"
+		},
+		"keyboard__key MetaLeft": {
+			"always": "Win"
+		},
+		"keyboard__key AltLeft": {
+			"always": "Alt"
+		},
+		"keyboard__key Space": {
+			"always": ""
+		},
+		"keyboard__key AltRight": {
+			"always": "Alt"
+		},
+		"keyboard__key ArrowLeft": {
+			"always": "˂"
+		},
+		"keyboard__key ArrowDown": {
+			"always": "˅"
+		},
+		"keyboard__key ArrowRight": {
+			"always": "˃"
+		},
+		"keyboard__key ControlRight": {
+			"always": "Ctrl"
+		}
+	}
+}
