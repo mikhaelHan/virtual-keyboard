@@ -19,45 +19,69 @@ class KeyboardRegular {
     } else element.classList.remove('button-active');
   }
 
+  findElement(element) {
+    let result;
+
+    this.buttons.forEach((el) => {
+      if (element === el.classList[1]) { result = el; }
+    });
+
+    return result;
+  }
+
   press() {
     document.addEventListener('keydown', (event) => {
+      const activElement = this.findElement(event.code);
+
       if ((event.code === 'ShiftLeft' || event.code === 'ShiftRight') && event.ctrlKey) {
         this.changeLanguage.storage(true);
+      } if (event.code === 'ShiftLeft' || event.code === 'ShiftRight') {
+        shift();
+        this.changeColor(activElement, true);
+      } else if (event.code === 'CapsLock') {
+        capsLock(activElement);
+      } else if (event.code === 'Space') {
+        this.input.field.textContent += ' ';
+        this.changeColor(activElement, true);
+      } else if (event.code === 'Delete') {
+        this.input.field.textContent = '';
+        this.changeColor(activElement, true);
+      } else if (event.code === 'Enter') {
+        this.input.field.textContent += '\n';
+        this.changeColor(activElement, true);
+      } else if (event.code === 'Backspace' && activElement.classList[1] === 'Backspace') {
+        const inputVal = this.input.field.value;
+        this.input.field.textContent = inputVal.substring(0, inputVal.length - 1);
+        this.changeColor(activElement, true);
+      } else if (event.code === 'Tab') {
+        event.preventDefault();
+        this.input.field.textContent += '    ';
+        this.changeColor(activElement, true);
+      } else if (event.code === 'AltLeft' || event.code === 'AltRight') {
+        event.preventDefault();
+        this.changeColor(activElement, true);
+      } else if (event.code === 'ControlLeft' || event.code === 'ControlRight') {
+        event.preventDefault();
+        this.changeColor(activElement, true);
+      } else if (event.code === 'ArrowUp' || event.code === 'ArrowLeft' || event.code === 'ArrowRight' || event.code === 'ArrowDown') {
+        event.preventDefault();
+        this.input.field.textContent += activElement.firstElementChild.textContent;
+        this.changeColor(activElement, true);
+      } else {
+        this.input.write(activElement);
+        this.changeColor(activElement, true);
       }
-
-      this.buttons.forEach((el) => {
-        if (event.code === 'CapsLock' && el.classList[1] === 'CapsLock') {
-          capsLock(el);
-        } else if (event.code === 'Space' && el.classList[1] === 'Space') {
-          this.input.field.textContent += ' ';
-          this.changeColor(el, true);
-        } else if (event.code === 'Delete' && el.classList[1] === 'Delete') {
-          this.input.field.textContent = '';
-          this.changeColor(el, true);
-        } else if (event.code === 'Enter' && el.classList[1] === 'Enter') {
-          this.input.field.textContent += '\n';
-          this.changeColor(el, true);
-        } else if (event.code === 'Backspace' && el.classList[1] === 'Backspace') {
-          const inputVal = this.input.field.value;
-          this.input.field.textContent = inputVal.substring(0, inputVal.length - 1);
-          this.changeColor(el, true);
-        } else if ((event.code === 'ShiftLeft' && el.classList[1] === 'ShiftLeft') || (event.code === 'ShiftRight' && el.classList[1] === 'ShiftRight')) {
-          shift();
-          this.changeColor(el, true);
-        } else if (event.code === el.classList[1]) {
-          this.input.write(el);
-          this.changeColor(el, true);
-        }
-      });
     });
 
     document.addEventListener('keyup', (event) => {
-      this.buttons.forEach((el) => {
-        if ((event.code === 'ShiftLeft' && el.classList[1] === 'ShiftLeft') || (event.code === 'ShiftRight' && el.classList[1] === 'ShiftRight')) {
-          shift();
-          this.changeColor(el, false);
-        } else if (event.code === el.classList[1] && el.classList[1] !== 'CapsLock') this.changeColor(el, false);
-      });
+      const activElement = this.findElement(event.code);
+
+      if (event.code === 'ShiftLeft' || event.code === 'ShiftRight') {
+        shift();
+        this.changeColor(activElement, false);
+      } else if (event.code !== 'CapsLock') {
+        this.changeColor(activElement, false);
+      }
     });
   }
 }
